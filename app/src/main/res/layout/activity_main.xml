@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+        <TextView
+            android:id="@+id/text0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/newbold"
+            android:text="Kailasagiri Park"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pic0"></TextView>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/pic0"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kilashagiri" />
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            android:alpha="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rishikonda_beach" />
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:alpha="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rk_beach" />
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            android:alpha="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/submarine" />
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/simhachalam"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-16dp"
+            android:alpha="0"/>
+
+        <ImageView
+            android:id="@+id/pic5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/katiki_waterfalls"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:alpha="0"/>
+
+        <ImageView
+            android:id="@+id/pic6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yaradabeach"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:alpha="0"/>
+
+        <ImageView
+            android:id="@+id/pic7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/zoo"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:alpha="0"/>
+
+        <ImageView
+            android:id="@+id/pic8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gvpce"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="4dp"
+            android:alpha="0"/>
+
+
+        <!-- <ImageButton
+             android:id="@+id/left"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:color/transparent"
+             app:srcCompat="@android:drawable/ic_media_previous"
+             tools:layout_editor_absoluteX="0dp"
+             tools:layout_editor_absoluteY="138dp" />
+
+         <ImageButton
+             android:id="@+id/right"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:color/transparent"
+             app:srcCompat="@android:drawable/ic_media_next"
+             tools:layout_editor_absoluteX="379dp"
+             tools:layout_editor_absoluteY="138dp" />-->
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/newbold"
+            android:text="Information"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="438dp"
+            tools:ignore="DuplicateIds" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overview:"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+
+            android:textColor="@color/black"
+            android:fontFamily="@font/newbold"
+            />
+
+        <TextView
+            android:id="@+id/overviewcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At a height of 173 metres, the main attractions at Kailasagiri Park are 12-metre tall statues of Lord Shiva and goddess Parvathi, a floral clock and the Titanic viewpoint."
+            android:textSize="14dp"
+            android:fontFamily="@font/newlight"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            />
+
+
+
+        />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What To Expect?"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/newbold"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/whattoexpect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spanning 380 acres with views of the Bay of Bengal and the city, Kailasagiri Park also has a ropeway, toy train and facilities for paragliding and horse riding."
+        android:textSize="14dp"
+        android:fontFamily="@font/newlight"
+
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"></TextView>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="Tips:"
+        android:fontFamily="@font/newbold"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/Tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="There is an entrance fee for the park.\n
+The park is open from 6:00 am to 7:30 pm.\n
+There is a café inside the park."
+        android:textSize="14dp"
+        android:fontFamily="@font/newlight"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"></TextView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="Address:"
+        android:fontFamily="@font/newbold"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"/>
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hill Top Road, Kailasagiri, Visakhapatnam, Andhra Pradesh, 530043, India"
+        android:textSize="14dp"
+        android:fontFamily="@font/newlight"
+        android:justificationMode="inter_word"
+
+        android:textColor="@color/black"></TextView>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="Location:"
+        android:textStyle="bold"
+        android:fontFamily="@font/newbold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="https://maps.app.goo.gl/YZfPFJfENRgCufhS7"
+        android:autoLink="web"
+        android:justificationMode="inter_word"
+        android:textSize="14dp"
+        android:textColorLink="#0000EE">
+
+    </TextView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/prevbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/previous" />
+
+            <ImageView
+                android:id="@+id/nextbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/next" />
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+
+
